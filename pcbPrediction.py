@@ -10,7 +10,7 @@ def predict_pcb(file):
         formatted_string = match.group(1).replace('_', ' ')
         result = formatted_string.title()
         return result
-    return None
+    return "None"
 
 
 
